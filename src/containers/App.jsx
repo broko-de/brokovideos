@@ -1,6 +1,7 @@
 import React from 'react';
 //Importo Componentes
 import Header from '../components/Header';
+import Search from '../components/Search';
 
 //Importo CSS - Con extensión
 import '../assets/styles/App.scss';
@@ -11,6 +12,7 @@ import '../assets/styles/App.scss';
 const App = () =>(
     <div className="App">
         <Header />
+        <Search />
     </div>
 )
 
