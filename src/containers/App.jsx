@@ -26,9 +26,9 @@ const App = () => {
         params: videos: el nombre de la variable para guadar el estado
         params: setVideos: la funcion que permite actualizar el estado, en este caso los videos
         useState: recibe como parametro lo que vamos utilizar para inicializar el estado, en este caso un array vacio
-    */
+    
     const [ videos , setVideos ] = useState({ mylist: [], trends: [], originals: [] })
-
+    */
     /*
         Permite ir a la API para obtener los datos para pasarse a la funcion setVideo que se encarga de actualizar el estado de la APP
         useEffect recibe una funcion anonima y un segundo parametro que se encarga de escuchar alguna propiedad que pueda cambiar y asi pueda volver
