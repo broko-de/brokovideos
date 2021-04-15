@@ -41,6 +41,18 @@ module.exports = {
                     'sass-loader'
                 ]
             },
+            //Regla para tratar archivos multimedia
+            {
+                test: /\.(png|gif|jpg)$/,
+                use:[
+                    {
+                        'loader': 'file-loader',
+                        options:{
+                            name: 'assets/[hash].[ext]' //guardo los archivos dentro de la carpeta assets en produccion
+                        }
+                    }
+                ]
+            }
         ]
     },
     plugins: [
